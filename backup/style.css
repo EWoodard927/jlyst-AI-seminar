@@ -1,0 +1,152 @@
+/* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
+header {
+    background-image: url('https://lupusla.org/wp-content/uploads/2023/06/Lupus-LA-Benefits-of-Service-Dogs.jpg'); background-size: cover; background-position: 50%; background-repeat: no-repeat; border: solid black 3px;
+    color: white;
+    padding: 128px 16px;
+}
+ .firstsection {
+    color: black; 
+    background-color: rgb(255, 223, 155); 
+    margin: 20px; 
+    padding: 40px;
+    border-radius: 10%;
+    border: solid black 3px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.section3 {
+    color: black; 
+    background-color: rgb(255, 223, 155); 
+    margin: 20px; 
+    padding: 40px;
+    border-radius: 10%;
+    border: solid black 3px;
+    /* Use flex layout like .firstsection so heading stays full-width
+       and content (image + paragraph) sits side-by-side naturally. */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.section {
+    color: black; 
+    background-color: rgb(255, 223, 155); 
+    margin: 20px; 
+    padding: 40px;
+    border-radius: 10%;
+    border: solid black 3px;
+}
+
+.contact {
+    color: black; 
+    background-color: rgb(255, 223, 155); 
+    margin: 20px; 
+    padding: 40px;
+    border-radius: 15%;
+    border: solid black 3px;
+    text-align: center;
+}
+   
+ body {
+    background-color: rgb(255, 201, 64);
+    background-image: url('https://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22264-paw-prints-icon.png');
+    background-size: 50px 50px;
+}
+
+.organization {
+    font-size: 53px;
+    color: black;
+    width: 300px;
+    position: relative;
+    left: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+}
+
+.rights {
+    font-size: 24px;
+    position: relative;
+    bottom: 5px;
+    left: 50px
+}
+
+.paragraph1 {
+    width: 400px;
+}
+
+.paragraph2 {
+    width: 500px;
+    /* Remove manual positioning so the container controls layout */
+}
+
+hr {
+    color: black;
+}
+
+.doggo {
+    max-width: 500px;     /* constrain image size so it fits next to text */
+    width: 100%;
+    height: auto;
+    border: solid black 3px;
+    border-radius: 10%;
+}
+
+.lab {
+    border: solid black 3px;
+    border-radius: 10%;
+    min-width: 550px;
+}
+
+.area {
+    flex-basis: 100%;
+    /* place heading text and icon inline, icon directly after the text */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* keep items together at the left */
+    gap: 12px;
+    margin-left: 20px;
+}
+
+/* Add a pawprint icon to the right of each `.area` heading */
+.area::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image: url('https://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22264-paw-prints-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 0 0 auto;
+    margin-left: 8px; /* stick close to the header text */
+    align-self: center;
+}
+
+.app {
+    align-items: center;
+    width: 75px;
+}
+
+.navbar {
+    height: 50px;
+    background-color: rgb(255, 223, 155);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    border: solid black 3px;
+}
+
+.navlinks {
+    position: relative;
+    top: 10px;
+    height: 30px;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+.navlinks:hover {box-shadow: 2px 3px;}

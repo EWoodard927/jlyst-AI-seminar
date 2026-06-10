@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — Elena</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="navbar">
+    <a class="navlinks" href="index.html">Home</a>
+    <a class="navlinks" href="#about">About</a>
+    <a class="navlinks" href="#projects">Projects</a>
+    <a class="navlinks" href="#contact">Contact</a>
+  </div>
+
+  <header class="portfolio-header">
+    <h1 class="organization">Elena's Portfolio</h1>
+  </header>
+
+  <main class="firstsection" id="about">
+    <h2 class="area">About Me</h2>
+    <p class="paragraph1">I'm a student learning web design and accessibility. I build small websites that are clear, friendly, and easy to use. This page showcases a few projects and how to reach me.</p>
+  </main>
+
+  <section class="section" id="projects">
+    <h2 class="area">Selected Projects</h2>
+    <div class="portfolio-grid">
+      <article class="card">
+        <div class="project-img" role="img" aria-label="Starry decorative background"></div>
+        <h3>Celestial Notes</h3>
+        <p>A small demo site with dreamy layout and decorative visuals.</p>
+      </article>
+
+      <article class="card">
+        <div class="project-img" role="img" aria-label="Starry decorative background"></div>
+        <h3>Event Sign-up</h3>
+        <p>A demo sign-up form for seminars and outreach events with validation.</p>
+      </article>
+
+      <article class="card">
+        <div class="project-img" role="img" aria-label="Starry decorative background"></div>
+        <h3>Accessibility Tips</h3>
+        <p>A short guide explaining simple accessibility improvements for websites.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="area">Contact</h2>
+    <form class="contact-form" action="#" method="post">
+      <label>Name<br /><input type="text" name="name" placeholder="Your name" /></label>
+      <label>Email<br /><input type="email" name="email" placeholder="you@example.com" /></label>
+      <label>Message<br /><textarea name="message" rows="4" placeholder="Message"></textarea></label>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="section">
+    <p style="text-align:center">© 2026 Elena — Portfolio</p>
+  </footer>
+</body>
+</html>
